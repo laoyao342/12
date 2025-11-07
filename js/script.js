@@ -18,7 +18,7 @@ document.addEventListener('click', function(e) {
 // 新年倒计时脚本
 const countdown = () => {
   // 设置你的目标日期和时间
-  const countDate = new Date('November 08, 2025 23:59:59').getTime(); // 修改为你的目标日期
+  const countDate = new Date('November 08, 2025 01:23:59').getTime(); // 修改为你的目标日期
   const now = new Date().getTime();
   const gap = countDate - now;
 
@@ -76,3 +76,4 @@ musicControl.addEventListener('click', () => {
     musicIcon.classList.add('fa-play');
   }
 });
+
